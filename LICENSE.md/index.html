@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Big Yarro</title>
+    </head>
+    <body>
+        <style>
+            .body{
+                background-color: cyan;
+            }
+            .yarroimg{
+                position: absolute;
+                top: 40%;
+                left: 30%;
+                width: 819px;
+                height: 416px;
+                margin:-60px 0 0 -60px;
+                -webkit-animation:spin 1s linear infinite;
+                -moz-animation:spin 1s linear infinite;
+                animation:spin 1s linear infinite;
+            }
+            @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+            @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+            @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+        </style>
+        <h1>WE have BIGYAROOO</h1>
+        <img class="yarroimg" src="yarro.png">
+    </body>
